@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Dosis";
+    src: url('../fonts/Dosis.ttf');
+}
+
+.title {
+    font-family: 'Dosis', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(59, 186, 156);
+}
+.subtitle {
+    font-family: 'Dosis', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: rgb(59, 186, 156);
+}
+.body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: large;
+    color: rgb(59, 186, 156);
+}
+.subheading {
+    font-family: 'Dosis', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(59, 186, 156);
+}
+.footer {
+    font-family: 'Dosis', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: rgb(59, 186, 156);
+}
+.nitroCode {
+    font-family: 'Dosis', sans-serif;
+    font-size: small;
+    text-align: center;
+    color: rgb(59, 186, 156);
+}
+.button {
+    background-color:rgb(60, 63, 88);
+    border-radius:28px;
+    border:1px solid rgb(59, 186, 156);
+    display:inline-block;
+    cursor:pointer;
+    color:rgb(59, 186, 156);
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+}
+.button:hover {
+    background-color:rgb(77, 79, 92);
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+::-webkit-scrollbar {
+    width: 1em;
+}
+::-webkit-scrollbar-track {
+    background: rgb(77, 79, 92);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(59, 186, 156);
+    border-radius: 100px;
+    border: 0.2em solid rgb(59, 186, 156);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(59, 186, 156);
+    border-radius: 100px;
+    border: 0.2em solid rgb(59, 186, 156);
+}
+#stats {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+}
